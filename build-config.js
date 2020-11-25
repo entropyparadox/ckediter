@@ -13,10 +13,10 @@
  * (1) https://ckeditor.com/cke4/builder
  *     Visit online builder to build CKEditor from scratch.
  *
- * (2) https://ckeditor.com/cke4/builder/3335b83c1d31aff77cc082b57e4a3ff9
+ * (2) https://ckeditor.com/cke4/builder/91c987aa21777b052480abe121aa0052
  *     Visit online builder to build CKEditor, starting with the same setup as before.
  *
- * (3) https://ckeditor.com/cke4/builder/download/3335b83c1d31aff77cc082b57e4a3ff9
+ * (3) https://ckeditor.com/cke4/builder/download/91c987aa21777b052480abe121aa0052
  *     Straight download link to the latest version of CKEditor (Optimized) with the same setup as before.
  *
  * NOTE:
@@ -25,7 +25,7 @@
  */
 
 var CKBUILDER_CONFIG = {
-	skin: 'moono-lisa',
+	skin: 'kama',
 	preset: 'full',
 	ignore: [
 		'.DS_Store',
@@ -68,7 +68,6 @@ var CKBUILDER_CONFIG = {
 		'div' : 1,
 		'editorplaceholder' : 1,
 		'elementspath' : 1,
-		'embed' : 1,
 		'enterkey' : 1,
 		'entities' : 1,
 		'exportpdf' : 1,
@@ -80,7 +79,6 @@ var CKBUILDER_CONFIG = {
 		'format' : 1,
 		'forms' : 1,
 		'horizontalrule' : 1,
-		'html5video' : 1,
 		'htmlwriter' : 1,
 		'iframe' : 1,
 		'image' : 1,
@@ -88,6 +86,7 @@ var CKBUILDER_CONFIG = {
 		'indentlist' : 1,
 		'justify' : 1,
 		'language' : 1,
+		'link' : 1,
 		'list' : 1,
 		'liststyle' : 1,
 		'magicline' : 1,
@@ -107,7 +106,6 @@ var CKBUILDER_CONFIG = {
 		'selectall' : 1,
 		'showblocks' : 1,
 		'showborders' : 1,
-		'simage' : 1,
 		'smiley' : 1,
 		'sourcearea' : 1,
 		'specialchar' : 1,
@@ -120,8 +118,11 @@ var CKBUILDER_CONFIG = {
 		'toolbar' : 1,
 		'undo' : 1,
 		'uploadimage' : 1,
+		'video' : 1,
+		'videoembed' : 1,
 		'wsc' : 1,
-		'wysiwygarea' : 1
+		'wysiwygarea' : 1,
+		'youtube' : 1
 	},
 	languages : {
 		'en' : 1,
